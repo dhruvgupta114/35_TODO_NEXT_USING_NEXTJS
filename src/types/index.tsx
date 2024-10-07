@@ -9,7 +9,7 @@ export interface inputProps {
 
 export interface formProps {
     children: ReactNode;
-    action: (formData: FormData) =>void;
+    action?: (formData: FormData) =>void;
     className: string;
     onSubmit: () => void;
 }
